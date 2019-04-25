@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: 756160f78d71020458338b2a56ebee6c
+  productGUID: 3bce86b3424c417429a4b783b2e41844
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -602,9 +602,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 09281139-b5a8-4a6e-9b9e-435da4346cfd
+  cloudProjectId: cc635c3d-0105-4fe5-860c-a2b8ba3e667b
   projectName: GroupProject
-  organizationId: ratrat0745
+  organizationId: burnsbk
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
