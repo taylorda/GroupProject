@@ -126,8 +126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampTime: 0.2
-  screenEdgeBuffer: 4
-  minSize: 6.5
+  screenEdgeBuffer: 2
+  minSize: 2.5
   targets:
   - {fileID: 0}
 --- !u!124 &124586805241694564
