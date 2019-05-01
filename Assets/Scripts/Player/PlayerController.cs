@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour {
 
 	Vector3 targetPosition = Vector3.zero;
 
+	public Camera cam;
+
 	void Start() {
 		rb = GetComponent<Rigidbody2D> ();
 		horizontalMovementAxis = "Horizontal" + playerID;
@@ -44,10 +46,13 @@ public class PlayerController : MonoBehaviour {
 
 	void FaceMouse(){
 		Vector3 mousePosition = Input.mousePosition;
-		mousePosition = Camera.main.ScreenToWorldPoint (mousePosition);
+		mousePosition = cam.ScreenToWorldPoint (mousePosition);
 		Vector3 called = transform.position - mousePosition;
 		float distance = called.magnitude;
 		Vector3 direction = called.normalized;
+		float angle = Mathf.Atan2 (-direction.y, -direction.x);
+		angle = Mathf.Rad2Deg * angle;
+		transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
 	}
 
 }
