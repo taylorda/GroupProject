@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour {
+public class Cam : MonoBehaviour {
 	public float dampTime = 0.2f;
 	public float screenEdgeBuffer = 4f;
 	public float minSize = 6.5f;

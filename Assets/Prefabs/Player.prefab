@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerID: 1
   speed: 0.05
+  cam: {fileID: 0}
 --- !u!212 &212499144987543806
 SpriteRenderer:
   m_ObjectHideFlags: 1
