@@ -5,6 +5,7 @@ using UnityEngine;
 public class Environment : MonoBehaviour {
 	public int mapWidth;
 	public int mapHeight;
+	public EnvironmentalObject[] spawnableObjects;
 	[HideInInspector] public List<EnvironmentalObject> objects;
 
 	void Start () {
@@ -12,7 +13,7 @@ public class Environment : MonoBehaviour {
 		objects = new List<EnvironmentalObject> ();
 	}
 
-	void Update () {
-		
+	public void Generate() {
+
 	}
 }
